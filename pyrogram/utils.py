@@ -204,6 +204,9 @@ MIN_CHAT_ID = -2147483647
 MAX_USER_ID_OLD = 2147483647
 MAX_USER_ID = 999999999999
 
+# Updated values
+MIN_CHANNEL_ID = -1007852516352
+MIN_CHAT_ID = -999999999999
 
 def get_raw_peer_id(peer: raw.base.Peer) -> Optional[int]:
     """Get the raw peer id from a Peer object"""
